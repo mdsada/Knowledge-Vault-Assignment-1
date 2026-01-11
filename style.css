@@ -166,7 +166,7 @@ section {
 }
 
 .section-title p {
-  color: black;
+  color: rgb(80, 80, 80);
   font-size: 18px;
 }
 
@@ -203,4 +203,72 @@ section {
 
 .card p {
   font-size: 16px;
+  color: #363636;
 }
+
+
+
+
+/* solution */
+
+.split {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 1460px;
+  justify-content: space-between;
+  margin: auto;
+}
+
+
+.knowledge {
+  width: 600px;
+  height: 600px;
+  background-color: white;
+  background-repeat: no-repeat;
+  align-items: center;
+  
+}
+
+.solution {
+  max-width:650px;
+  margin-left: 60px;
+  align-items: center;
+  
+}
+
+.solution h3 {
+  color: #469165;
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+.solution h2 {
+  font-size: 48px;
+  margin-bottom: 10px;
+  line-height: 1.2;
+}
+
+.solution p {
+  color: rgb(122, 122, 122);
+  margin-bottom: 40px;
+}
+
+.split span {
+   
+    padding-right: 10px;
+    margin: 0;
+}
+
+.checklist p {
+
+  position: relative;
+  display: flex;
+  margin-left: 10px;
+  margin-bottom: 0;
+  color: black;
+}
+
+
+
+
