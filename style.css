@@ -8,7 +8,7 @@
 body {
   font-family: "Roboto", sans-serif;
   color: black;
-   line-height: 1.6;
+   line-height: 1.5;
  
 }
 
@@ -103,6 +103,7 @@ a {
 .hero h1 {
   color: white;
   font-size: 80px;
+  font-weight: bold;
   margin-bottom: 20px;
 }
 
@@ -161,8 +162,13 @@ section {
 
 .section-title {
   text-align: center;
-  font-size: 48px;
+
   margin-bottom: 50px;
+}
+.section-title h2 {
+  font-size: 48px;
+  font-weight: bold;
+
 }
 
 .section-title p {
@@ -199,6 +205,7 @@ section {
 
 .card h3 {
   font-size: 24px;
+  font-weight: bold;
 }
 
 .card p {
@@ -233,8 +240,7 @@ section {
 .solution {
   max-width:650px;
   margin-left: 60px;
-  align-items: center;
-  
+   
 }
 
 .solution h3 {
@@ -245,6 +251,7 @@ section {
 
 .solution h2 {
   font-size: 48px;
+  font-weight: bold;
   margin-bottom: 10px;
   line-height: 1.2;
 }
@@ -252,10 +259,11 @@ section {
 .solution p {
   color: rgb(122, 122, 122);
   margin-bottom: 40px;
+  max-width: 500px;
 }
 
 .split span {
-   
+    text-align: left;
     padding-right: 10px;
     margin: 0;
 }
@@ -264,11 +272,41 @@ section {
 
   position: relative;
   display: flex;
-  margin-left: 10px;
+
   margin-bottom: 0;
   color: black;
 }
 
 
 
+/* challenge */
 
+.container {
+  max-width: 1600px;
+  margin: auto;
+  padding: 80px;
+}
+
+.challenge {
+  background: #F7F6F2;
+  text-align: center;
+  border-radius: 20px;
+  padding: 80px 40px;
+  max-width: 1360px;
+  align-items: center;
+}
+.challenge h2 {
+  font-size: 40px;
+  margin-bottom: 16px;
+  font-weight: bold;
+}
+.challenge p {
+  font-size: 16px;
+  margin-bottom: 24px;
+  color: #7c7c7c;
+}
+
+.challenge-note {
+  font-size: 16px;
+  margin-top: 16px;
+}
