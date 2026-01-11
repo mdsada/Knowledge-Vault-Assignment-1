@@ -223,7 +223,7 @@ section {
   align-items: center;
   justify-content: space-between;
   max-width: 1460px;
-  justify-content: space-between;
+
   margin: auto;
 }
 
@@ -309,4 +309,64 @@ section {
 .challenge-note {
   font-size: 16px;
   margin-top: 16px;
+}
+
+
+
+
+/* footer */
+
+
+footer {
+  background: #001931;
+  color: #cbd5e1;
+  padding: 120px 120px 30px 120px;
+  max-width: 1600px;
+  align-items: center;
+  justify-content: space-between;
+  margin: auto;
+
+}
+
+.footer-inner {
+  max-width: 1100px;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 2rem;
+}
+
+.footer-logo {
+  width: 140px;
+  height: 60px;
+}
+.social-icon {
+    width: 20px;
+    height: 20px;
+    
+}
+
+.socials p {
+  font-size: 20px;
+}
+
+.socials img {
+  margin: 16px 16px 0 0;  
+}
+
+.divider {
+  width: 100%;
+  height: 1px;
+  border: none;
+  background-color: rgb(63, 66, 112);
+  margin-top: 30px ;
+}
+
+
+.copyright {
+  width: 100%;
+  text-align: center;
+  font-size: 16px;
+  color: #94a3b8;
 }
